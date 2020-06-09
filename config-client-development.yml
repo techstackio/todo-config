@@ -1,2 +1,9 @@
 app:
   role: developer
+  
+---
+spring:
+  profiles: dev1
+  
+app:
+  role: dev1developer
