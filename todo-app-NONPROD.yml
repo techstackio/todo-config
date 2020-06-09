@@ -2,6 +2,12 @@ max.count=20
 
 ---
 spring:
-  profiles: dev1
+  profiles: dev
   
-max.count=5
+max.count=10
+
+---
+spring:
+  profiles: qa
+  
+max.count=15
