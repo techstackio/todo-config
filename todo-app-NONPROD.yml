@@ -1,0 +1,7 @@
+max.count=20
+
+---
+spring:
+  profiles: dev1
+  
+max.count=5
